@@ -25,5 +25,33 @@ Example:
         [{ 'bars' : 6}, {'packs' : 12}, {'carton' : 1}],
     ]    
 '''
+'''
+import json
+from packaging import parse_packaging, calc_total_units, get_unit
+packages = []
+with open('data/packaging.txt') as f:
+    for line in f.readlines():
+        line = line.strip()
+        package = parse_packaging(line)
+        total_units = calc_total_units(package)
+        unit = get_unit(package)
+        print(f"{line} => total units: {total_units} {unit}")
+        packages.append(package)
+        with open('data/packaging.json', 'w') as f:
+            json.dump(packages, f, indent=4)
+'''
 
-# TODO: Write code
+import json
+from packaging import parse_packaging, calc_total_units, get_unit
+packages = []
+
+with open('data/packaging.txt') as p:
+    for line in p.readlines():
+        line = line.strip()
+        package = parse_packaging(line)
+        package_total = calc_total_units(package)
+        unit = get_unit(package)
+        print(f"{line} => total units: {package_total} {unit}")
+        packages.append(package)
+        with open('data/packaging.json', 'w') as f:
+            json.dump(packages, f, indent=4)

@@ -1,102 +1,138 @@
 [
     [
         {
-            "eggs": 12
+            "12": "eggs"
         },
         {
-            "carton": 1
+            "1": "carton"
         }
     ],
     [
         {
-            "balls": 25
+            "25": "balls"
         },
         {
-            "buckets": 4
+            "1": "bucket"
         },
         {
-            "bin": 1
+            "4": "buckets"
+        },
+        {
+            "1": "bin"
         }
     ],
     [
         {
-            "cards": 52
+            "52": "cards"
         },
         {
-            "decks": 8
+            "1": "deck"
         },
         {
-            "shoe": 1
+            "8": "decks"
+        },
+        {
+            "1": "shoe"
         }
     ],
     [
         {
-            "tires": 4
+            "4": "tires"
         },
         {
-            "cars": 20
+            "1": "car"
         },
         {
-            "lots": 3
+            "20": "cars"
         },
         {
-            "property": 1
+            "1": "lot"
+        },
+        {
+            "3": "lots"
+        },
+        {
+            "1": "property"
         }
     ],
     [
         {
-            "tablets": 30
+            "30": "tablets"
         },
         {
-            "blister": 12
+            "1": "blister"
         },
         {
-            "cartons": 4
+            "12": "blister"
         },
         {
-            "box": 1
+            "1": "carton"
+        },
+        {
+            "4": "cartons"
+        },
+        {
+            "1": "box"
         }
     ],
     [
         {
-            "cans": 24
+            "24": "cans"
         },
         {
-            "cases": 16
+            "1": "case"
         },
         {
-            "stacks": 12
+            "16": "cases"
         },
         {
-            "pallet": 1
+            "1": "stack"
+        },
+        {
+            "12": "stacks"
+        },
+        {
+            "1": "pallet"
         }
     ],
     [
         {
-            "ounces": 8
+            "8": "ounces"
         },
         {
-            "cups": 2
+            "1": "cup"
         },
         {
-            "pints": 2
+            "2": "cups"
         },
         {
-            "quarts": 4
+            "1": "pint"
         },
         {
-            "gallon": 1
+            "2": "pints"
+        },
+        {
+            "1": "quart"
+        },
+        {
+            "4": "quarts"
+        },
+        {
+            "1": "gallon"
         }
     ],
     [
         {
-            "mm": 1000
+            "1000": "mm"
         },
         {
-            "m": 1000
+            "1": "m"
         },
         {
-            "km": 1
+            "1000": "m"
+        },
+        {
+            "1": "km"
         }
     ]
 ]

@@ -24,3 +24,7 @@ Examples:
 `--- Reflection Below This Line ---`
 
 I enjoyed this assignment a lot. It really challenged me. I did the whole assignment before realizing I had formated the first part wrong so that resulted in a lot of errors when I eventually tried to format it hte correct way because the second function was using the output from the first one but I had the format wrong. I am also still struggling with the test. I belvied I used pip install correctly but It's saying that I don't have a certain module downloded. I tried out a couple tests myself so I know my code works but I can't get it to pass the test and the only error I see is about a missing module.
+
+Also I think there was a type in packaging.txt becasse it said "i packs" instead of "1 pack" and that caused an error as my code didn't know how to multiply a letter. I changed it in the txt but I wanted to double check that was right
+
+I will also add that I needed help from the solution code when it got to the JSON part. I don't remember a lot about JSON and would love a refresher in class
